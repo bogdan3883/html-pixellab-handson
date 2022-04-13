@@ -1,0 +1,23 @@
+i {
+  color: red;
+}
+
+.links a{
+text-decoration: none;
+}
+
+a[href*=".com"]{
+  color: black;
+}
+
+a{
+  color: green;
+}
+
+.line {
+  text-decoration: underline;
+}
+
+.line.p{
+  color: gray;
+}
