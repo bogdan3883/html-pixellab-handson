@@ -64,42 +64,45 @@
         </ul>
       </section>
       <!--./header-social-->
-      <section class="header-connect">
+      <section class="header-contact">
         <a
           href="tel:+44-10-2345-6789"
           title="Call us"
         >CALL US +44 (0)10 2345 6789</a>
       </section>
-      <!--header-connect-->
+      <!--header-contact-->
 
       <section class="header-controls">
+        <form
+          class="header-search"
+          action="/"
+        >
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input
+            type="text"
+            name="search"
+            id="search"
+            placeholder="Search"
+          >
+        </form>
+        <!--./form.header-search-->
         <ul>
-          <li class="search-controls">
-            <form action="/">
-              <i class="fa-solid fa-magnifying-glass"></i>
-              <input
-                type="text"
-                name="search"
-                id="search"
-                placeholder="Search"
-              >
-            </form>
           </li>
-          <li class="user-controls">
+          <li>
             <a
               href="/"
               title="My Account"
             ></a>
             <i class="fa-solid fa-user"></i>
           </li>
-          <li class="wishlish-controls">
+          <li>
             <a
               href="/"
               title="Wishlist"
             ></a>
             <i class="fa-solid fa-heart"></i>
           </li>
-          <li title="cart-controls">
+          <li>
             <a
               href="/"
               title="Cart"
@@ -121,28 +124,28 @@
               title="New Arrivals"
             >NEW ARRIVALS</a>
           </li>
-          <li class="nav-brands">
+          <li>
             <a
               href="/"
               title="Brands"
             >BRANDS</a>
           </li>
           </li>
-          <li class="nav-men">
+          <li>
             <a
               href="/"
               title="Men's"
             >MEN'S</a>
           </li>
           </li>
-          <li class="nav-women">
+          <li>
             <a
               href="/"
               title="Women's"
             >WOMEN'S</a>
           </li>
           </li>
-          <li class="nav-accesories">
+          <li>
             <a
               href="/"
               title="Accesories"
@@ -206,9 +209,6 @@
             title="Exchange & Returns"
           >exchange & returns</a>
         </li>
-
-        <br>
-
         <li>
           <a
             href="/"
@@ -237,21 +237,20 @@
     </nav>
     <!--./footer-nav-->
 
-    <section class="footer-connect">
+    <nav class="footer-social">
+      Sign up for our newsletter
+      <form
+        action="/"
+        class="footer-newsletter"
+      >
+        <input
+          type="email"
+          name="email"
+          id="email"
+        >
+      </form>
+      <!--./form.footer-newsletter-->
       <ul>
-        <li>
-          Sign up for our newsletter
-          <br>
-          <form action="/">
-            <input
-              type="email"
-              name="Email"
-              id="email"
-            >
-            <br>
-            <button type="submit">SUBMIT</button>
-          </form>
-        </li>
         <li>
           <a
             href=""
@@ -288,8 +287,8 @@
           ><i class="fa-brands fa-instagram"></i></a>
         </li>
       </ul>
-    </section>
-    <!--./footer-connect-->
+    </nav>
+    <!--./footer-social-->
   </footer>
   <!--./footer-->
 </body>
