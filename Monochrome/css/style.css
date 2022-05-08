@@ -186,6 +186,7 @@ a{
   padding-left: 16px;
 }
 
+
 .header-top-banner{
   max-height: 100%;
   max-width: 100%;
@@ -216,3 +217,42 @@ a{
 }
 
 /* ./header--------------------------------------- */
+
+
+/* footer----------------------------------------- */
+
+.footer{
+  background-color: #e8e8e8;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer-contact{
+  display: inline-block ;
+padding: 40px 40px;
+}
+
+.footer-nav-faq{
+  display: inline-block;
+}
+
+.footer-nav-faq ul{
+  display: inline-block;
+  padding: 40px 40px;
+}
+
+.footer-nav-about{
+  display: inline-block;
+  padding: 40px 40px;
+}
+
+.footer-social{
+  display: inline-block;
+  padding: 40px 40px;
+}
+.footer-social li{
+  display: inline-block;
+  padding-top: 30px;
+  padding-right: 16px;
+}
+
