@@ -142,7 +142,7 @@ table {
 body{
   font-family: 'Playfair', sans-serif;
   color: #2b2b2b;
-  font-size: 22px;
+  font-size: 16px;
 }
 
 a{
@@ -153,7 +153,7 @@ a{
 .container {
   margin: 0 auto;
   width: 100%;
-
+  max-width: 1272px;
 }
 
 /* header------------------------------------------ */
@@ -161,7 +161,7 @@ a{
   position: relative;
 }
 
-.header-social ul{
+/* .header-social ul{
   font-size: 16px;
   color: #e8e8e8;
   position: absolute;
@@ -172,9 +172,17 @@ a{
 
 .header-social li{
   padding-left: 16px;
+} */
+
+.header-social{
+  float: left;
 }
 
-.header-controls ul{
+.header-social li{
+  display: inline-block;
+}
+
+/* .header-controls ul{
   font-size: 16px;
   position: absolute;
   display: flex;
@@ -183,19 +191,38 @@ a{
 }
 /* aici am improvizat ceva sa le pot pune in colturi opuse fara float */
 
-.header-controls li{
+/* .header-controls li{
   padding-left: 16px;
+} */
+
+.header-controls{
+  float: right;
+}
+
+.header-controls li{
+  display: inline-block;
 }
 
 
-.header-top-banner{
+/* .header-top-banner{
   max-height: 100%;
   max-width: 100%;
+} */
+
+.header-top-banner{
+  width: 100%;
+  height: auto;
+
+}
+
+.header-top-banner img{
+  height: 100%;
+  width: 100%;
 }
 
 .nav-primary {
   background-color: #2b2b2b;
-  margin-top: -2px;
+  /* margin-top: 20px; */
   padding: 20px;
 }
 
@@ -278,4 +305,18 @@ a{
 
 .footer-newsletter-button{
   margin-top: 4px;
+}
+
+
+/* main ----------------------------------------- */
+
+.content-main > section > header > h1{
+
+}
+
+.content-container > section > header > h1{
+  font-size: 35px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
 }
